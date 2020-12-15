@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="ITryagain">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="ITryagain">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="妄想">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>ITryagain</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">ITryagain</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="calendar fa-fw"></i>日程表</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2018/12/02/%E5%96%9C%E6%AC%A2%E7%9A%84%E5%8F%A5%E5%AD%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/12/02/%E5%96%9C%E6%AC%A2%E7%9A%84%E5%8F%A5%E5%AD%90/" class="post-title-link" itemprop="url">喜欢的句子</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-12-02 23:31:29" itemprop="dateCreated datePublished" datetime="2018-12-02T23:31:29+08:00">2018-12-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>一些喜欢的和曾激励过自己的句子。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/12/02/%E5%96%9C%E6%AC%A2%E7%9A%84%E5%8F%A5%E5%AD%90/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/16/diary20201215/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/16/diary20201215/" class="post-title-link" itemprop="url">diary20201215</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-12-16 01:06:12 / 修改时间：01:28:34" itemprop="dateCreated datePublished" datetime="2020-12-16T01:06:12+08:00">2020-12-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年12月16日01:07:08</code> 睡觉前补个日记。今天一早就起来了，跟着宁哥去了趟毓秀楼，了解了下后面要做的项目。都看了一遍，感觉并不复杂，做起来可能会有那么一两个难点，但都能解决。后面就好好跟着宁哥把这个东西做好吧。</p>
+<p>刚从毓秀楼回到宿舍，gay飞就发消息来问要不要出去吃饭，于是乎又去了趟新校，路上骑小蓝差点翻车- - 。。结果刚到就又往回走，说是昨晚被npy骂了，今天也不回他消息所以才叫我出来 orz（见色忘友的gdx。。一边往本部走一边聊天，好像挺久没有这样边走边聊天过了，挺开心。</p>
+<p>中午回到宿舍后也就没想着补觉了，打开了前两天下的明日之后开始玩了起来，感觉跟一开始想象的差别还挺大 233333333，当时只是听过一些玩法的名词，但没想到是这样的- -，感觉有空可以把当时想的写下来，看看能不能做成一个游戏 23333。</p>
+<p>晚上本来是要跟宁哥再去趟毓秀楼的，结果宁哥突然有事，就推迟到明天，于是乎突然不知道要做啥了。正好早上去计算机楼的时候看到了她的国奖风采展板，拍了下来，于是就发给了她，然后聊了一晚上 _(:з」∠) _，最后也说明年到上海之后约约饭或是出来玩啥的。想一想好像有两个月没聊过天了，当知道她拿了几个算法岗的offer之后感觉是真的厉害，感觉自己得继续努力。总之现在就是很开心 233333</p>
+<p>再看两集动漫然后睡觉 orz，明天还有挺多事要做。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/10/diary20201210/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/10/diary20201210/" class="post-title-link" itemprop="url">diary20201210</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-10 17:02:13" itemprop="dateCreated datePublished" datetime="2020-12-10T17:02:13+08:00">2020-12-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年12月10日22:57:29</code> 好久没有写点东西了，主要是因为台式机卡没了，就没经常开了，然后一直在用笔记本玩游戏。。。趁今天开了台式机，稍稍总结一下这段时间。</p>
+<ol>
+<li>助教任务</li>
+</ol>
+<blockquote>
+<p>之前用了一周左右准备光追框架，从零到一写了个光追，算是懂了光追的整个流程。但是在给学弟学妹们讲解框架的时候，发现了自己仍然不是很善于表达。在夏老师的指导下，算是比较好的把框架讲清楚了，感觉这次的助教学到了不少对自己未来很有帮助的东西。”会写固然重要，但更重要的应该是讲。如何把你写的东西讲给别人听，让别人能理解你写的东西是怎么样的，能明白其中的精髓。只有这样才能在众人中脱颖而出。”</p>
+</blockquote>
+<ol start="2">
+<li>锻炼</li>
+</ol>
+<blockquote>
+<p>自从几周前入冬以后，运动量一下减了好多，感觉减肥任重而道远啊~现在体能算是恢复了不少，后面还是得坚持锻炼，目标毕业前瘦到 125 斤以下吧。</p>
+</blockquote>
+<ol start="3">
+<li>面试</li>
+</ol>
+<blockquote>
+<p>前段时间又收到了米哈游的面试通知，隔了这么久才二面通知也是没想到。最终还是挂在了三面，栽在不会 C++，接下来得好好地补补 C++ 了，基础还是不太行呀。</p>
+</blockquote>
+<ol start="4">
+<li>生活</li>
+</ol>
+<blockquote>
+<p>回来之后也认识了些学弟，面了基，讲了讲我的一些经历，希望这些能给他们一些帮助。有时候挺羡慕他们的，刚刚大一，四年的大学时光，总觉得自己好像过的还不是那么理想。</p>
+<p>大四也快过去一半了，刚上大学的时候的目标也大致实现了。剩下的可能就是脱单了，但回来之后就几乎没跟女生聊过天，整天窝在宿舍里打游戏、看动漫，偶尔写写代码，感觉脱单无望，2333333。</p>
+</blockquote>
+<ol start="5">
+<li>学习</li>
+</ol>
+<blockquote>
+<p>今天网易 -1 计划也出来，发现还是有挺多东西要学的，接下来有活干了- -。除了 -1 之外，还要学 C++ 以及开始引擎的编写。咸鱼了这么久，是该开始干活了。</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/18/diary20201018/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/18/diary20201018/" class="post-title-link" itemprop="url">diary20201018</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-10-18 23:30:14" itemprop="dateCreated datePublished" datetime="2020-10-18T23:30:14+08:00">2020-10-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年10月18日23:30:48</code> 今天完成了体侧补测，算了算成绩，应该是及格了。属实没想到，练了两年半的长跑，吃半年就没了。。。这个月恢复还算可以吧，稍微瘦了点，体能也恢复了挺多，好歹胖了20斤还是能跑进 4 分钟，虽然只有 3 分 58 - -。</p>
+<p>这周还是有挺多内容没完成的，本来说要写的博客也还没开动，图形学光追的书也还没看完，下周得要抓紧时间；也差不多可以开始做毕设了，下次体测完差不多就要准备出去实习了，然后还有几件要做的事也得在出去实习前做了。</p>
+<p>前几天跟学弟聊天的时候，学弟说到遇到一个志同道合的人很难，想一想确实啊，毕竟大学里大家的追求不一样。但仔细想一想，我似乎并没有搞明白自己追求的是什么，从大一的 ACM 到大二开始做 JAVA 然后紧接着就做机器学习和强化学习，一直到最后工作找的游戏开发方向，虽然一直都是以自己的兴趣为导向在做事，但是，我追求的到底是什么呢？感觉确实得花点时间去思考思考了，这个问题可能得在接下来几年生活中去解答了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/11/diary20201011/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/11/diary20201011/" class="post-title-link" itemprop="url">diary20201011</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-10-11 22:41:43" itemprop="dateCreated datePublished" datetime="2020-10-11T22:41:43+08:00">2020-10-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年10月11日22:42:05</code> 网易实习结束到现在 20 来天了，大部分时间都是在玩 - -。虽说回来之后也开始了引擎的项目，但是进度还是比较慢，还有挺多东西需要去学，虽说做游戏需要去玩不少游戏吧，但是怎么说也是做技术的，还是得分清轻重。</p>
+<p>前段时间莫名当上了图形学的助教，明天下午就是图形学的课，到时候去蹭一节。</p>
+<p>另外确实是如自己所想，搬到本部之后跟女生的交流就更加少了，感觉脱单是无望了呀。</p>
+<p>后面抽个时间做一做实习期间的总结好了，博客也还没怎么写 orz，拖延症现在有点严重。。。。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/21/diary20200921/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/21/diary20200921/" class="post-title-link" itemprop="url">diary20200921</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-21 22:41:59" itemprop="dateCreated datePublished" datetime="2020-09-21T22:41:59+08:00">2020-09-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年9月21日22:45:17</code> 时隔半年多，又回到了学校。好久没写日记和总结了，趁此机会，写点东西。</p>
+<p> 上一篇日记还是在寒假回家前写的，当时还挺期待上半年的奶茶，结果因为疫情- -，害。。。</p>
+<p>半年多时间，也算经历了不少，从二月底开始一直到四月底，不断投算法岗，结果一直挂，在四月底便决定转投开发，继续当年做游戏开发的想法，终于在六月初，拿到了网易的实习 offer，也算是完成了当年刚进学校的目标。</p>
+<p>从七月份开始一直到前几天，经历了西山居的 SEED 训练营和网易的实习，收货挺多，认识了不少朋友，也学到了不少的东西。</p>
+<p>秋招到现在为止，也拿到了三个 offer，网易 字节 西山居，从春招一路挂开始，从没想过招工作能有这么顺，感觉这段时间的运气是确实好。虽说之前还想再投投腾讯和米哈游，但现在完全不想面试- -</p>
+<p>还记得寒假回去前还在想之后能不能脱单，现在想想感觉是没啥希望了吧，半年多胖了二十斤，再加上已经好几个月没跟人家聊过天了 orz。。想找她聊天也不知道该聊啥，现在大四了一点课都没有，感觉根本就没啥机会能见到，看来毕业前脱单应该是不太可能的了。剩下的一年还是怎么开心怎么过吧。。。</p>
+<p>接下来的一年，还有挺多想做的事，wiki、引擎、U3D 场景设计…就尽量完成吧。</p>
+<p>代码、生活、热爱、远方</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/01/20/diary20200120/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/20/diary20200120/" class="post-title-link" itemprop="url">diary20200120</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-20 21:14:57" itemprop="dateCreated datePublished" datetime="2020-01-20T21:14:57+08:00">2020-01-20</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年1月20日21:15:22</code> 明天就回家了，今天花了一下午的时间收拾了寝室，现在看起来舒服多了，自己的桌子也没那么乱了。就是特别累，感觉腰快废了233333 。这几天在学校一直在摸鱼，诶，感觉这跟回家好像没啥区别，还不如早点回家。回去之后还是好好研究下最近做的东西吧，怎么说还是想要写论文的。</p>
+<p>前天晚上看到她说要请我喝奶茶来感谢我，想想真不容易啊，一年多了终于会想到请我吃东西啥的了_(:з」∠) _，那一刻感觉很开心，期待下学期的奶茶 2333333 。</p>
+<p>明早回家，就早些休息了，也不知道睡不睡得着，最近好像都3点左右才睡着。明天还得早起，诶。关机休息。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/01/13/%E4%BD%A0%E5%A5%BD2020/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/13/%E4%BD%A0%E5%A5%BD2020/" class="post-title-link" itemprop="url">你好2020</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-13 23:59:51" itemprop="dateCreated datePublished" datetime="2020-01-13T23:59:51+08:00">2020-01-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>2020年1月14日00:00:30</code> 2020年的第一篇日记。说是日记，但看起来每次都像是一段时间的总结。本来应该是跨年那天就该写的，一直拖到了现在，趁今晚抽点时间写写。</p>
+<p>从考试周到现在过去快一个月了，这个学期过得很快，不知道是不是因为越来越接近毕业的缘故，感觉有很多东西需要去学，但好像时间一直不够，偏偏这种情况下还总想当条咸鱼 _ (:з」∠) _ ，细细一想确不应该，虽说这大概是大部分人的共性，但对自己来说还是需要克服。</p>
+<p>2020年，大概有这么几个目标（flag）吧：</p>
+<ol>
+<li>争取拿到竞赛保研资格，从高中到现在，打竞赛也打了三四年了，但是几乎没有获得过满意的成绩，不知是自己水平就是如此，还是就差那么点运气。所以这次，不再指望运气，说做到最好就做到最好，不划水，竭尽全力。毕竟自己当年放弃了绩点，但确确实实是想做几年的科研，可能会很累，但是真的想！虽说如此，仍然还没有考研的想法。</li>
+<li>维护一个开源项目，或是 github 上已有的，或是自己做的。</li>
+<li>做更多的分享，写更多的高质量博客。</li>
+<li>向喜欢的人告白，这件事想了很久了。对我来说，把喜欢说出口真的好难。总是有所顾虑，或许她已经明白了我的想法了，如果真是这样，那被拒绝的概率可以说是接近 100% 了吧。可是一直憋在心里真的是难受，而且，现在感觉自己真的有点像是工具人吧。</li>
+<li>发几篇水平比较高的论文，即使后面拿不到竞赛保研资格，发了几篇论文，或许能靠这些论文来申请 MSRA 或是一些 AI lab。</li>
+<li>每天或每周抽点时间看看 CSAPP 和 SICP 或是一些技术方面的书籍，就算搞算法，工程能力还是得要有。</li>
+</ol>
+<p><code>2020年1月14日00:48:42</code>可能暂时就这么多了吧，总之就一句话，新的一年，加油！！！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2019/12/19/diary20191219/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/19/diary20191219/" class="post-title-link" itemprop="url">diary20191219</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-19 23:41:38" itemprop="dateCreated datePublished" datetime="2019-12-19T23:41:38+08:00">2019-12-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>本来是上海回来就该写的，但是一直都比较忙就拖到了今晚。</p>
+<p>这次去上海参加 Datathon，没拿到什么奖，定题方向跟第一名的队伍很相似，然而水平有限，没做过他们，最后还是没拿到奖。不过认识了两个复旦小姐姐，还行。</p>
+<p>第二天的 DevFest 感觉还算是知道了些新东西，比如 unity 的一些新东西，感觉又有东西可以捣鼓了。顺便跟DJ学长面了下基。</p>
+<p>这次出去，感觉还是有所收获吧，起码又涨了点见识。志豪说我上海回来整个人气质就变了，我也不知道。。感觉跟以前好像没啥区别。。</p>
+<p>回来那天晚上睡觉做梦又梦到她了，可能已经好久没梦见了，想着找个时间去表白，怂逼还是得再考虑考虑。想想最近QQ上也没怎么跟她聊过天。。emmmmm，好头疼啊 orz</p>
+<p>今天面了腾讯AI安全方面的岗位，emmmmm，没经历过面试，真的是不知道自己什么水准，面试官人很好，没有提为难自己的问题，第一次面试体验还好，突击了一天还是稍微有点用处，后面准备好好补基础了，tensorflow、shell、python、机器学习算法，正好趁着这几天期末考一边复习一边写博客。总之，后面继续加油。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2019/12/05/diary20191205/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="妄想">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ITryagain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/05/diary20191205/" class="post-title-link" itemprop="url">diary20191205</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-05 23:52:18" itemprop="dateCreated datePublished" datetime="2019-12-05T23:52:18+08:00">2019-12-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-14 19:02:53" itemprop="dateModified" datetime="2020-12-14T19:02:53+08:00">2020-12-14</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F/" itemprop="url" rel="index"><span itemprop="name">程序人生</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>最近又有些迷茫，不知道该做什么好。今天跟轩总在回寝室路上聊天，说道感觉由甲很强，轩总也这么认为，他说关键是由甲能静的下心来去学习。是啊，仔细想想，自己好像很久不能静下心来去做一件事了。每次遇到难题就想放弃，想走捷径。现在似乎不像以前那样对代码时刻保持着热情。这段时间一直在纠结是出去实习还是做研究的问题，心里有些乱。做比赛的时候也是，总想轻易地获取高分，但是又不想去思考，兴趣好像也没当初那么强烈了。</p>
+<p>诶。。。感觉需要跟家里人好好商量商量，然后找个人谈谈心，真的不能再这么颓废下去了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">妄想</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/leo6033" title="csdn → https:&#x2F;&#x2F;blog.csdn.net&#x2F;leo6033" rel="noopener" target="_blank"><i class="spinner fa-fw"></i>csdn</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.cnblogs.com/csu-lmw/" title="博客园 → https:&#x2F;&#x2F;www.cnblogs.com&#x2F;csu-lmw&#x2F;" rel="noopener" target="_blank"><i class="crosshairs fa-fw"></i>博客园</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">妄想</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
